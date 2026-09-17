@@ -1,0 +1,23 @@
+{
+  "name": "intely",
+  "displayName": "Intely",
+  "version": "0.1.0",
+  "description": "Routes AI agents to Intely's server-hosted MCP guides before they build anything in the Intely platform",
+  "author": {
+    "name": "Intely",
+    "url": "https://intely.io"
+  },
+  "homepage": "https://github.com/intely-io/intely-agent-skills",
+  "repository": "https://github.com/intely-io/intely-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "intely",
+    "mcp",
+    "healthcare",
+    "integration",
+    "interoperability",
+    "hl7",
+    "fhir"
+  ],
+  "skills": "./skills/"
+}
