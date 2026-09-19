@@ -1,0 +1,25 @@
+{
+  "name": "intely-agent-skills",
+  "owner": {
+    "name": "Intely",
+    "url": "https://intely.io"
+  },
+  "metadata": {
+    "description": "Agent skills for working with the Intely platform through its MCP server",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "intely",
+      "description": "Routes AI agents to Intely's server-hosted MCP guides before they build anything in the Intely platform",
+      "version": "0.1.0",
+      "author": {
+        "name": "Intely",
+        "url": "https://intely.io"
+      },
+      "homepage": "https://github.com/intely-io/intely-agent-skills",
+      "tags": ["intely", "mcp", "healthcare", "integration"],
+      "source": "./"
+    }
+  ]
+}

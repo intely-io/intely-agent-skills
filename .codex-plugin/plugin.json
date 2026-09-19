@@ -1,0 +1,39 @@
+{
+  "name": "intely",
+  "version": "0.1.0",
+  "description": "Routes AI agents to Intely's server-hosted MCP guides before they build anything in the Intely platform",
+  "author": {
+    "name": "Intely",
+    "url": "https://intely.io"
+  },
+  "homepage": "https://github.com/intely-io/intely-agent-skills",
+  "repository": "https://github.com/intely-io/intely-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "intely",
+    "mcp",
+    "healthcare",
+    "integration",
+    "interoperability",
+    "hl7",
+    "fhir"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Intely",
+    "shortDescription": "Read Intely's MCP guides before building in the Intely platform",
+    "longDescription": "Intely's MCP server hosts step-by-step guides for data types, mappings, crosswalks, apps, app instances, integrations, and projects. This plugin adds one small skill that tells the agent to call listGuides and getGuide before using any Intely build tool, so it follows the platform's current rules regardless of client. No Intely domain content ships in the plugin; it all stays on the server.",
+    "developerName": "Intely",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://intely.io",
+    "privacyPolicyURL": "https://intely.io/privacy-policy",
+    "termsOfServiceURL": "https://intely.io/terms-of-service",
+    "defaultPrompt": [
+      "Create a mapping in Intely from my source data type to FHIR Patient",
+      "Explain how Intely integrations are scheduled",
+      "Debug why my Intely crosswalk returns no match"
+    ],
+    "screenshots": []
+  }
+}
